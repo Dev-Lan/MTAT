@@ -84,7 +84,7 @@ export class Toolbar extends BaseComponent{
 		this.wrapperDiv.appendChild(textWrapper);
 
 		let processBookLink = document.createElement("a")
-		processBookLink.href = "../dataVizClass/Viz Process Book.pdf";
+		processBookLink.href = "dataVizClass/Viz Process Book.pdf";
 		processBookLink.innerText = "Process Book";
 
 		this.wrapperDiv.appendChild(processBookLink);
