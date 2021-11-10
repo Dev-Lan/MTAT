@@ -119,7 +119,7 @@ export class App<DataType> {
 
 	private async fetchCsv(filename: string): Promise<void>
 	{
-		await d3.csv("../exampleData/" + filename).then(data =>
+		await d3.csv("exampleData/" + filename).then(data =>
 		{
 			// console.log(data);
 			let newData: DataType = this.dataFromCSVObject(data);
